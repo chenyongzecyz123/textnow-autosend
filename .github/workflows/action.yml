@@ -14,7 +14,7 @@ jobs:
       - name: Setup node.js
         uses: actions/setup-node@v1 # 使用官方提供的setup-node 1.0版本配置node环境
         with:
-          node-version: "12.x" # 使用node 12版本作为运行环境
+          node-version: "12.x" # 使用node 12版本作为运行环境 
       - name: Install dependencies
         run: npm install # 安装依赖
       - name: Run autosend
